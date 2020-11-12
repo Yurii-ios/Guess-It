@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12589B5255DC30300D70416 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12589B4255DC30300D70416 /* FilmModel.swift */; };
 		F17B570C255C87240088BB8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B570B255C87240088BB8F /* AppDelegate.swift */; };
 		F17B570E255C87240088BB8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B570D255C87240088BB8F /* SceneDelegate.swift */; };
 		F17B5710255C87240088BB8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B570F255C87240088BB8F /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F12589B4255DC30300D70416 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 		F17B5708255C87240088BB8F /* Guess It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17B570B255C87240088BB8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17B570D255C87240088BB8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				F17B5730255C87280088BB8F /* InterfaceController.swift */,
+				F12589B4255DC30300D70416 /* FilmModel.swift */,
 				F17B5732255C87280088BB8F /* ExtensionDelegate.swift */,
 				F17B5734255C87280088BB8F /* ComplicationController.swift */,
 				F17B5736255C87290088BB8F /* Assets.xcassets */,
@@ -304,6 +307,7 @@
 				F17B5733255C87280088BB8F /* ExtensionDelegate.swift in Sources */,
 				F17B5731255C87280088BB8F /* InterfaceController.swift in Sources */,
 				F17B5735255C87280088BB8F /* ComplicationController.swift in Sources */,
+				F12589B5255DC30300D70416 /* FilmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

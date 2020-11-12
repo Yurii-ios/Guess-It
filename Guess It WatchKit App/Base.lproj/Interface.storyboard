@@ -1,15 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17156" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17034"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Rectangle-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller backgroundImage="Rectangle" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Guess_It_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" widthAdjustment="1" alignment="center" verticalAlignment="center" layout="vertical" id="bSo-2v-2pq">
+                            <items>
+                                <label width="1" alignment="center" verticalAlignment="center" textAlignment="center" numberOfLines="0" id="wlY-8l-eLV">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="K1O-ch-8Mn">
+                                    <fontDescription key="font" type="system" pointSize="26"/>
+                                    <connections>
+                                        <action selector="refreshAction" destination="AgC-eL-Hgc" id="Zhf-EQ-oh2"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="myButton" destination="K1O-ch-8Mn" id="qBV-0m-WzA"/>
+                        <outlet property="myLabel" destination="wlY-8l-eLV" id="zir-E1-bsU"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="130" y="-21"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Rectangle" width="300" height="300"/>
+    </resources>
 </document>
